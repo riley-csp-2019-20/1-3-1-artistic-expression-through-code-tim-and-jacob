@@ -108,7 +108,7 @@ def right():
 def shoot():
     global shotStatus
     shotStatus = 1
-# the distance functions check the distance between the player bullet and the enemies, and also the enemy bullets and the player
+# the distance functions check the distance between the player bullet and the enemies, the enemy bullets and the player, and the enemies and the player
 def distance1(t1, t2):
     global shotStatus, score
     distance = m.sqrt(m.pow(t1.xcor()-t2.xcor(),2) + m.pow(t1.ycor()-t2.ycor(),2))
