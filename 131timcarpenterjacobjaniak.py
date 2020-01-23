@@ -164,7 +164,7 @@ def distancePlayerEnemy(t1, t2):
         player.goto(0, 2000) # move off of the screen
         shotStatus = 0
 def ightImmaHeadOutInitializer():
-    wn.onkeypress(ightImmaHeadOut, ";")
+    wn.onkeypress(ightImmaHeadOut, "=")
 def ightImmaHeadOut():
     fontTurtle.goto(-200, 400)
     fontTurtle.write("ight imma head out", 40, font = ("Impact", 40, "normal"))
