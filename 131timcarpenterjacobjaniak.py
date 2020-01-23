@@ -163,11 +163,11 @@ def distancePlayerEnemy(t1, t2):
         enemyShot.ht()
         player.goto(0, 2000) # move off of the screen
         shotStatus = 0
-def ightImBoutHeadOutInitializer():
-    wn.onkeypress(ightImBoutHeadOut, ";")
-def ightImBoutHeadOut():
-    fontTurtle.goto(-250, 400)
-    fontTurtle.write("ight im bouta head out", 40, font = ("Impact", 40, "normal"))
+def ightImmaHeadOutInitializer():
+    wn.onkeypress(ightImmaHeadOut, ";")
+def ightImmaHeadOut():
+    fontTurtle.goto(-200, 400)
+    fontTurtle.write("ight imma head out", 40, font = ("Impact", 40, "normal"))
 
 # define keypresses
 wn.onkeypress(left, "a")
@@ -175,7 +175,7 @@ wn.onkeypress(left, "Left")
 wn.onkeypress(right, "d")
 wn.onkeypress(right, "Right")
 wn.onkeypress(shoot, "space")
-wn.onkeypress(ightImBoutHeadOutInitializer, "l")
+wn.onkeypress(ightImmaHeadOutInitializer, "l")
 wn.listen()
 
 shotCountdown = 0 # this variable is the delay between enemy shots and also the delay between enemy movements
